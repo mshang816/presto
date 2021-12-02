@@ -14,6 +14,7 @@
 package com.facebook.presto.spi;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 import java.math.BigDecimal;
@@ -73,7 +74,7 @@ public final class SplitWeight
     }
 
     @JsonCreator
-    public static SplitWeight fromRawValue(long value)
+    public static SplitWeight fromRawValue(@JsonProperty("rawValue") long value)
     {
         return value == UNIT_VALUE ? STANDARD_WEIGHT : new SplitWeight(value);
     }
