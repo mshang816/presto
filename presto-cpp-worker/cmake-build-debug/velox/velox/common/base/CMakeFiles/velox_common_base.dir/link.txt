@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_common_base.a CMakeFiles/velox_common_base.dir/BitUtil.cpp.o CMakeFiles/velox_common_base.dir/RawVector.cpp.o CMakeFiles/velox_common_base.dir/SimdUtil.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_common_base.a

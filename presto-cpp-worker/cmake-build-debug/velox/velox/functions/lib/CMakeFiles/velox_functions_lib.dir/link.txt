@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_functions_lib.a CMakeFiles/velox_functions_lib.dir/IsNull.cpp.o CMakeFiles/velox_functions_lib.dir/LambdaFunctionUtil.cpp.o CMakeFiles/velox_functions_lib.dir/Re2Functions.cpp.o CMakeFiles/velox_functions_lib.dir/StringEncodingUtils.cpp.o CMakeFiles/velox_functions_lib.dir/JodaDateTime.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_functions_lib.a

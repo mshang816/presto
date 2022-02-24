@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_type_tz.a CMakeFiles/velox_type_tz.dir/TimeZoneDatabase.cpp.o CMakeFiles/velox_type_tz.dir/TimeZoneMap.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_type_tz.a

@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libtpch_extension.a CMakeFiles/tpch_extension.dir/tpch-extension.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libtpch_extension.a

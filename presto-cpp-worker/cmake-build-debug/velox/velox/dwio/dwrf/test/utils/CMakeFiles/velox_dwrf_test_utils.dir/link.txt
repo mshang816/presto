@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_dwrf_test_utils.a CMakeFiles/velox_dwrf_test_utils.dir/BatchMaker.cpp.o CMakeFiles/velox_dwrf_test_utils.dir/DataFiles.cpp.o CMakeFiles/velox_dwrf_test_utils.dir/E2EWriterTestUtil.cpp.o CMakeFiles/velox_dwrf_test_utils.dir/FilterGenerator.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_dwrf_test_utils.a

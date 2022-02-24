@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_codegen_ast.a CMakeFiles/velox_codegen_ast.dir/ASTNode.cpp.o CMakeFiles/velox_codegen_ast.dir/BinaryExpressions.cpp.o CMakeFiles/velox_codegen_ast.dir/UnaryExpressions.cpp.o CMakeFiles/velox_codegen_ast.dir/ConstantExpression.cpp.o CMakeFiles/velox_codegen_ast.dir/ASTAnalysis.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_codegen_ast.a

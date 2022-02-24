@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/mikesh/repos/presto_cpp
+-- Found Boost: /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.66.0") found components: program_options context filesystem regex thread system date_time atomic 
+-- Found Boost: /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.51.0") found components: context filesystem program_options regex system thread 
+-- Found folly: /usr/local
+-- Found Protobuf: /usr/local/lib/libprotobuf.dylib (found version "3.19.4") 
+-- Build type: Debug
+-- Enabling Codegen
+-- Found Boost: /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.66.0") found components: program_options context filesystem regex thread system date_time atomic 
+-- Found Boost: /usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake (found suitable version "1.76.0", minimum required is "1.51.0") found components: context filesystem program_options regex system thread 
+-- Found folly: /usr/local
+-- Found Protobuf: /usr/local/lib/libprotobuf.dylib (found suitable version "3.19.4", minimum required is "3.0.0") 
+Thrift will create the Object file : presto_thrift-cpp2-obj
+Thrift will create the Library file : presto_thrift-cpp2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mikesh/repos/presto_cpp/cmake-build-debug

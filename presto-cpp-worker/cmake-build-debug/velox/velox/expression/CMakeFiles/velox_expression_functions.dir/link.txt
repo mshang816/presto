@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_expression_functions.a CMakeFiles/velox_expression_functions.dir/FunctionSignature.cpp.o CMakeFiles/velox_expression_functions.dir/SignatureBinder.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_expression_functions.a

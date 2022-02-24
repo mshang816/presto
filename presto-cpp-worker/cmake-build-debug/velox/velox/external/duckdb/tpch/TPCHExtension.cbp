@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TPCHExtension"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_context-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.76.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\gflags\;CMake Files\..\..\..\..\usr\local\lib\cmake\folly\;CMake Files\..\..\..\..\usr\local\lib\cmake\fmt\;CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\;CMake Files\velox\;CMake Files\velox\CMake\;CMake Files\velox\velox\;CMake Files\velox\velox\buffer\;CMake Files\velox\velox\buffer\tests\;CMake Files\velox\velox\common\;CMake Files\velox\velox\common\base\;CMake Files\velox\velox\common\base\test_utils\;CMake Files\velox\velox\common\caching\;CMake Files\velox\velox\common\caching\tests\;CMake Files\velox\velox\common\encode\;CMake Files\velox\velox\common\file\;CMake Files\velox\velox\common\file\benchmark\;CMake Files\velox\velox\common\memory\;CMake Files\velox\velox\common\memory\tests\;CMake Files\velox\velox\common\process\;CMake Files\velox\velox\common\serialization\;CMake Files\velox\velox\common\tests\;CMake Files\velox\velox\common\time\;CMake Files\velox\velox\core\;CMake Files\velox\velox\core\tests\;CMake Files\velox\velox\serializers\;CMake Files\velox\velox\serializers\tests\;CMake Files\velox\velox\type\;CMake Files\velox\velox\type\tests\;CMake Files\velox\velox\type\tz\;CMake Files\velox\velox\type\tz\tests\;CMake Files\velox\velox\vector\;CMake Files\velox\velox\vector\arrow\;CMake Files\velox\velox\vector\arrow\tests\;CMake Files\velox\velox\vector\tests\;CMake Files\velox\velox\vector\benchmarks\;CMake Files\velox\velox\row\;CMake Files\velox\velox\row\tests\;CMake Files\velox\velox\flag_definitions\;CMake Files\velox\velox\external\;CMake Files\velox\velox\external\date\;CMake Files\velox\velox\external\md5\;CMake Files\velox\velox\external\duckdb\;CMake Files\velox\velox\external\duckdb\tpch\;CMake Files\velox\velox\external\duckdb\tpch\dbgen\;CMake Files\velox\velox\examples\;CMake Files\velox\velox\expression\;CMake Files\velox\velox\expression\tests\;CMake Files\velox\velox\parse\;CMake Files\velox\velox\parse\tests\;CMake Files\velox\velox\dwio\;CMake Files\velox\velox\dwio\common\;CMake Files\velox\velox\dwio\common\compression\;CMake Files\velox\velox\dwio\common\encryption\;CMake Files\velox\velox\dwio\common\exception\;CMake Files\velox\velox\dwio\common\tests\;CMake Files\velox\velox\dwio\dwrf\;CMake Files\velox\velox\dwio\dwrf\common\;CMake Files\velox\velox\dwio\dwrf\proto\;CMake Files\velox\velox\dwio\dwrf\reader\;CMake Files\velox\velox\dwio\dwrf\test\;CMake Files\velox\velox\dwio\dwrf\test\utils\;CMake Files\velox\velox\dwio\dwrf\utils\;CMake Files\velox\velox\dwio\dwrf\utils\test\;CMake Files\velox\velox\dwio\dwrf\writer\;CMake Files\velox\velox\dwio\type\;CMake Files\velox\velox\functions\;CMake Files\velox\velox\functions\lib\;CMake Files\velox\velox\functions\lib\string\;CMake Files\velox\velox\functions\lib\string\tests\;CMake Files\velox\velox\functions\lib\benchmarks\;CMake Files\velox\velox\functions\lib\tests\;CMake Files\velox\velox\functions\prestosql\;CMake Files\velox\velox\functions\prestosql\json\;CMake Files\velox\velox\functions\prestosql\json\tests\;CMake Files\velox\velox\functions\prestosql\hyperloglog\;CMake Files\velox\velox\functions\prestosql\hyperloglog\tests\;CMake Files\velox\velox\functions\prestosql\aggregates\;CMake Files\velox\velox\functions\prestosql\aggregates\tests\;CMake Files\velox\velox\functions\prestosql\aggregates\benchmarks\;CMake Files\velox\velox\functions\prestosql\tests\;CMake Files\velox\velox\functions\prestosql\benchmarks\;CMake Files\velox\velox\functions\prestosql\coverage\;CMake Files\velox\velox\functions\prestosql\registration\;CMake Files\velox\velox\functions\sparksql\;CMake Files\velox\velox\functions\sparksql\tests\;CMake Files\velox\velox\functions\sparksql\benchmarks\;CMake Files\velox\velox\functions\tests\;CMake Files\velox\velox\connectors\;CMake Files\velox\velox\connectors\hive\;CMake Files\velox\velox\connectors\hive\storage_adapters\;CMake Files\velox\velox\connectors\hive\tests\;CMake Files\velox\velox\exec\;CMake Files\velox\velox\exec\tests\;CMake Files\velox\velox\exec\tests\utils\;CMake Files\velox\velox\exec\benchmarks\;CMake Files\velox\velox\codegen\;CMake Files\velox\velox\codegen\tests\;CMake Files\velox\velox\duckdb\;CMake Files\velox\velox\duckdb\conversion\;CMake Files\velox\velox\duckdb\conversion\tests\;CMake Files\velox\velox\duckdb\functions\;CMake Files\velox\velox\duckdb\functions\tests\;CMake Files\velox\velox\experimental\;CMake Files\velox\velox\experimental\codegen\;CMake Files\velox\velox\experimental\codegen\proto\;CMake Files\velox\velox\experimental\codegen\compiler_utils\;CMake Files\velox\velox\experimental\codegen\compiler_utils\tests\;CMake Files\velox\velox\experimental\codegen\library_loader\;CMake Files\velox\velox\experimental\codegen\library_loader\tests\;CMake Files\velox\velox\experimental\codegen\library_loader\tests\resources\;CMake Files\velox\velox\experimental\codegen\transform\;CMake Files\velox\velox\experimental\codegen\transform\utils\;CMake Files\velox\velox\experimental\codegen\transform\utils\tests\;CMake Files\velox\velox\experimental\codegen\external_process\;CMake Files\velox\velox\experimental\codegen\external_process\tests\;CMake Files\velox\velox\experimental\codegen\code_generator\;CMake Files\velox\velox\experimental\codegen\code_generator\tests\;CMake Files\velox\velox\experimental\codegen\ast\;CMake Files\velox\velox\experimental\codegen\udf_manager\;CMake Files\velox\velox\experimental\codegen\utils\;CMake Files\velox\velox\experimental\codegen\utils\timer\;CMake Files\velox\velox\experimental\codegen\utils\timer\tests\;CMake Files\velox\velox\experimental\codegen\utils\resources\;CMake Files\velox\velox\experimental\codegen\functions\;CMake Files\velox\velox\experimental\codegen\vector_function\;CMake Files\velox\velox\experimental\codegen\vector_function\tests\;CMake Files\velox\velox\experimental\codegen\benchmark\;CMake Files\velox\velox\experimental\codegen\tests\;CMake Files\presto_cpp\;CMake Files\presto_cpp\main\;CMake Files\presto_cpp\main\types\;CMake Files\presto_cpp\main\types\tests\;CMake Files\presto_cpp\main\http\;CMake Files\presto_cpp\main\http\tests\;CMake Files\presto_cpp\main\common\;CMake Files\presto_cpp\main\common\tests\;CMake Files\presto_cpp\main\thrift\;CMake Files\presto_cpp\main\connectors\;CMake Files\presto_cpp\main\connectors\hive\;CMake Files\presto_cpp\main\connectors\hive\storage_adapters\;CMake Files\presto_cpp\main\tests\;CMake Files\presto_cpp\presto_protocol\;CMake Files\presto_cpp\presto_protocol\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tpch_extension">
+				<Option output="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/libtpch_extension.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCODEGEN_ENABLED=1"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox"/>
+					<Add directory="/usr/local/opt/icu4c/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/antlr4-runtime"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/usr/local/include/proxygen"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 tpch_extension"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tpch_extension/fast">
+				<Option output="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/libtpch_extension.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCODEGEN_ENABLED=1"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox"/>
+					<Add directory="/usr/local/opt/icu4c/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/antlr4-runtime"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/usr/local/include/proxygen"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 tpch_extension/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbgen">
+				<Option output="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/libdbgen.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCODEGEN_ENABLED=1"/>
+					<Add option="-DDBNAME=dss"/>
+					<Add option="-DMAC"/>
+					<Add option="-DORACLE"/>
+					<Add option="-DTPCH"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox"/>
+					<Add directory="/usr/local/opt/icu4c/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/antlr4-runtime"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/usr/local/include/proxygen"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 dbgen"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbgen/fast">
+				<Option output="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/libdbgen.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCODEGEN_ENABLED=1"/>
+					<Add option="-DDBNAME=dss"/>
+					<Add option="-DMAC"/>
+					<Add option="-DORACLE"/>
+					<Add option="-DTPCH"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox"/>
+					<Add directory="/usr/local/opt/icu4c/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/."/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/include"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/.."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/antlr4-runtime"/>
+					<Add directory="/usr/local/opt/openssl/include"/>
+					<Add directory="/usr/local/include/proxygen"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external"/>
+					<Add directory="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 dbgen/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/mikesh/repos/presto_cpp/cmake-build-debug/velox/velox/external/duckdb/tpch/dbgen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/bm_utils.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/build.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/dbgen.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/dbgen_gunk.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/permute.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/rnd.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/rng64.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/speed_seed.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/text.cpp">
+			<Option target="dbgen"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/tpch-extension.cpp">
+			<Option target="tpch_extension"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/BoostDetectToolset-1.76.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/Boost-1.76.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/Boost-1.76.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_headers-1.76.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_program_options-1.76.0/boost_program_options-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_program_options-1.76.0/boost_program_options-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_program_options-1.76.0/libboost_program_options-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_program_options-1.76.0/libboost_program_options-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_program_options-1.76.0/libboost_program_options-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_program_options-1.76.0/libboost_program_options-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_program_options-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_context-1.76.0/boost_context-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_context-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_context-1.76.0/boost_context-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_context-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_context-1.76.0/libboost_context-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_context-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_context-1.76.0/libboost_context-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_context-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_filesystem-1.76.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_regex-1.76.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_regex-1.76.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_regex-1.76.0/libboost_regex-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_regex-1.76.0/libboost_regex-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_regex-1.76.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_regex-1.76.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_regex-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_thread-1.76.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_thread-1.76.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_thread-1.76.0/libboost_thread-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_thread-1.76.0/libboost_thread-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_thread-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_system-1.76.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_system-1.76.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_system-1.76.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_system-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_date_time-1.76.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_date_time-1.76.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_date_time-1.76.0/libboost_date_time-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_date_time-1.76.0/libboost_date_time-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_date_time-1.76.0/libboost_date_time-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_date_time-1.76.0/libboost_date_time-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_date_time-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_atomic-1.76.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_atomic-1.76.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_atomic-1.76.0/libboost_atomic-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/boost_atomic-1.76.0/libboost_atomic-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\boost_atomic-1.76.0\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/gflags/gflags-nonamespace-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/gflags/gflags-nonamespace-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/folly/folly-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/folly/folly-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/folly/folly-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\folly\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/fmt/fmt-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/GTest/GTestTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/../../../../usr/local/lib/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/CMake/FindICU.cmake">
+			<Option virtualFolder="CMake Files\velox\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/CMake/Findglog.cmake">
+			<Option virtualFolder="CMake Files\velox\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/buffer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\buffer\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/buffer/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\buffer\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\base\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/base/test_utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\base\test_utils\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/caching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\caching\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/caching/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\caching\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/encode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\encode\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/file/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\file\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/file/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\file\benchmark\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/ArenaTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/CompactDoubleListTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/HashStringAllocatorTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/MappedMemoryTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/MemoryHeaderTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/MemoryManagerTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/MemoryPoolTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/MemoryUsageTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/memory/tests/MemoryUsageTrackerTest.cpp">
+			<Option virtualFolder="CMake Files\velox\velox\common\memory\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/process/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\process\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/serialization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\serialization\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/common/time/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\common\time\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\core\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/core/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\core\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/serializers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\serializers\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/serializers/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\serializers\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/type/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\type\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/type/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\type\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/type/tz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\type\tz\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/type/tz/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\type\tz\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/vector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\vector\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/vector/arrow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\vector\arrow\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/vector/arrow/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\vector\arrow\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/vector/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\vector\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/vector/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\vector\benchmarks\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/row/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\row\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/row/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\row\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/flag_definitions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\flag_definitions\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/date/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\external\date\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/md5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\external\md5\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\external\duckdb\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\external\duckdb\tpch\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/external/duckdb/tpch/dbgen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\external\duckdb\tpch\dbgen\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\examples\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/expression/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\expression\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/expression/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\expression\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/parse/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\parse\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/parse/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\parse\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\common\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/common/compression/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\common\compression\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/common/encryption/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\common\encryption\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/common/exception/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\common\exception\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/common/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\common\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\common\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/proto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\proto\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/reader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\reader\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\test\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/test/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\test\utils\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\utils\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/utils/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\utils\test\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/dwrf/writer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\dwrf\writer\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/dwio/type/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\dwio\type\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\lib\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/lib/string/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\lib\string\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/lib/string/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\lib\string\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/lib/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\lib\benchmarks\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/lib/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\lib\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\json\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/json/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\json\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/hyperloglog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\hyperloglog\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/hyperloglog/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\hyperloglog\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/aggregates/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\aggregates\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/aggregates/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\aggregates\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/aggregates/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\aggregates\benchmarks\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\benchmarks\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/coverage/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\coverage\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/prestosql/registration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\prestosql\registration\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/sparksql/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\sparksql\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/sparksql/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\sparksql\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/sparksql/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\sparksql\benchmarks\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/functions/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\functions\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/connectors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\connectors\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/connectors/hive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\connectors\hive\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/connectors/hive/storage_adapters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\connectors\hive\storage_adapters\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/connectors/hive/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\connectors\hive\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/exec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\exec\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/exec/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\exec\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/exec/tests/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\exec\tests\utils\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/exec/benchmarks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\exec\benchmarks\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/codegen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\codegen\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/codegen/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\codegen\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/duckdb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\duckdb\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/duckdb/conversion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\duckdb\conversion\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/duckdb/conversion/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\duckdb\conversion\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/duckdb/functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\duckdb\functions\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/duckdb/functions/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\duckdb\functions\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/proto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\proto\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/compiler_utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\compiler_utils\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/compiler_utils/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\compiler_utils\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/library_loader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\library_loader\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/library_loader/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\library_loader\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/library_loader/tests/resources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\library_loader\tests\resources\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/transform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\transform\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/transform/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\transform\utils\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/transform/utils/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\transform\utils\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/external_process/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\external_process\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/external_process/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\external_process\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/code_generator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\code_generator\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/code_generator/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\code_generator\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/ast/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\ast\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/udf_manager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\udf_manager\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\utils\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/utils/timer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\utils\timer\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/utils/timer/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\utils\timer\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/utils/resources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\utils\resources\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/functions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\functions\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/vector_function/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\vector_function\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/vector_function/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\vector_function\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\benchmark\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/velox/velox/experimental/codegen/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\velox\velox\experimental\codegen\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/types/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\types\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/types/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\types\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\http\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/http/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\http\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\common\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/common/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\common\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/thrift/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\thrift\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/thrift/ThriftLibrary.cmake">
+			<Option virtualFolder="CMake Files\presto_cpp\main\thrift\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/connectors/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\connectors\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/connectors/hive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\connectors\hive\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/connectors/hive/storage_adapters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\connectors\hive\storage_adapters\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/main/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\main\tests\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/presto_protocol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\presto_protocol\"/>
+		</Unit>
+		<Unit filename="/Users/mikesh/repos/presto_cpp/presto_cpp/presto_protocol/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\presto_cpp\presto_protocol\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

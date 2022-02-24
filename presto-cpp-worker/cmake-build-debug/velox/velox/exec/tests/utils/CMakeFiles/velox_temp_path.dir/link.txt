@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_temp_path.a CMakeFiles/velox_temp_path.dir/TempFilePath.cpp.o CMakeFiles/velox_temp_path.dir/TempDirectoryPath.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_temp_path.a

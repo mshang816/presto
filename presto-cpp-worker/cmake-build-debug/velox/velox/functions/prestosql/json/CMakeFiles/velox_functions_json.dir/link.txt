@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_functions_json.a CMakeFiles/velox_functions_json.dir/JsonExtractor.cpp.o CMakeFiles/velox_functions_json.dir/JsonPathTokenizer.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_functions_json.a

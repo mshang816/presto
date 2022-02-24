@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_duckdb_conversion.a CMakeFiles/velox_duckdb_conversion.dir/DuckConversion.cpp.o CMakeFiles/velox_duckdb_conversion.dir/DuckWrapper.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_duckdb_conversion.a

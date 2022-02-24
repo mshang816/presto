@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/velox_functions_prestosql.dir/ArrayConstructor.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/ArrayContains.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/ArrayDistinct.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/ArrayDuplicates.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/ArrayIntersectExcept.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/ArrayMinMax.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Cardinality.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Coalesce.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/ElementAt.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/FilterFunctions.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/FromUnixTime.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/GreatestLeast.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/InPredicate.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Map.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/MapConcat.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/MapEntries.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/MapKeysAndValues.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Not.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Reduce.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/RegisterArithmetic.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/RegisterCheckedArithmetic.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/RegisterComparisons.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Reverse.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/RowFunction.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/SimpleFunctions.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Slice.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Split.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/StringFunctions.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Subscript.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/ToUtf8.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Transform.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/URLFunctions.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/VectorArithmetic.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/VectorFunctions.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/WidthBucketArray.cpp.o"
+  "CMakeFiles/velox_functions_prestosql.dir/Zip.cpp.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/velox_functions_prestosql.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

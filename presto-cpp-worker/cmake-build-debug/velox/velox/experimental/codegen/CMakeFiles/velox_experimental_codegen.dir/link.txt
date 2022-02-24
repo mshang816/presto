@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_experimental_codegen.a CMakeFiles/velox_experimental_codegen.dir/Codegen.cpp.o CMakeFiles/velox_experimental_codegen.dir/CodegenStubs.cpp.o CMakeFiles/velox_experimental_codegen.dir/CodegenLogger.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_experimental_codegen.a

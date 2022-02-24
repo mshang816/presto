@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_dwio_dwrf_proto.a CMakeFiles/velox_dwio_dwrf_proto.dir/dwrf_proto.pb.cc.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_dwio_dwrf_proto.a

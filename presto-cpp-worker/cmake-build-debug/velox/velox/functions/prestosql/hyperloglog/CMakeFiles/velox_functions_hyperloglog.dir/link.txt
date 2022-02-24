@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_functions_hyperloglog.a CMakeFiles/velox_functions_hyperloglog.dir/BiasCorrection.cpp.o CMakeFiles/velox_functions_hyperloglog.dir/DenseHll.cpp.o CMakeFiles/velox_functions_hyperloglog.dir/SparseHll.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_functions_hyperloglog.a

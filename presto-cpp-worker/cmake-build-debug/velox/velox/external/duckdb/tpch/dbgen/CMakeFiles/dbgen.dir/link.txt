@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libdbgen.a CMakeFiles/dbgen.dir/dbgen.cpp.o CMakeFiles/dbgen.dir/dbgen_gunk.cpp.o CMakeFiles/dbgen.dir/bm_utils.cpp.o CMakeFiles/dbgen.dir/build.cpp.o CMakeFiles/dbgen.dir/permute.cpp.o CMakeFiles/dbgen.dir/rnd.cpp.o CMakeFiles/dbgen.dir/rng64.cpp.o CMakeFiles/dbgen.dir/speed_seed.cpp.o CMakeFiles/dbgen.dir/text.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libdbgen.a

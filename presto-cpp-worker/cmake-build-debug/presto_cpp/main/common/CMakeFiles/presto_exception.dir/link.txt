@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libpresto_exception.a CMakeFiles/presto_exception.dir/Exception.cpp.o CMakeFiles/presto_exception.dir/tests/CommonTest.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libpresto_exception.a

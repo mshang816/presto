@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_vector_test_lib.a CMakeFiles/velox_vector_test_lib.dir/VectorMaker.cpp.o CMakeFiles/velox_vector_test_lib.dir/VectorTestBase.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_vector_test_lib.a

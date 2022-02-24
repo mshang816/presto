@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_type.a CMakeFiles/velox_type.dir/Type.cpp.o CMakeFiles/velox_type.dir/Variant.cpp.o CMakeFiles/velox_type.dir/Timestamp.cpp.o CMakeFiles/velox_type.dir/TimestampConversion.cpp.o CMakeFiles/velox_type.dir/Date.cpp.o CMakeFiles/velox_type.dir/Filter.cpp.o CMakeFiles/velox_type.dir/Subfield.cpp.o CMakeFiles/velox_type.dir/Tokenizer.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_type.a

@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_exception.a CMakeFiles/velox_exception.dir/Exceptions.cpp.o CMakeFiles/velox_exception.dir/VeloxException.cpp.o ../../flag_definitions/CMakeFiles/velox_flag_definitions.dir/flags.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_exception.a

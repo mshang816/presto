@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libpresto_common.a CMakeFiles/presto_common.dir/Counters.cpp.o CMakeFiles/presto_common.dir/Utils.cpp.o CMakeFiles/presto_common.dir/ConfigReader.cpp.o CMakeFiles/presto_common.dir/Configs.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libpresto_common.a

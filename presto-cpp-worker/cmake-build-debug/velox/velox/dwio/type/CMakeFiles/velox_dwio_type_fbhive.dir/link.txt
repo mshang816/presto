@@ -1,0 +1,2 @@
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libvelox_dwio_type_fbhive.a CMakeFiles/velox_dwio_type_fbhive.dir/fbhive/HiveTypeParser.cpp.o CMakeFiles/velox_dwio_type_fbhive.dir/fbhive/HiveTypeSerializer.cpp.o
+/Applications/Xcode_12.4.0_fb.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libvelox_dwio_type_fbhive.a
