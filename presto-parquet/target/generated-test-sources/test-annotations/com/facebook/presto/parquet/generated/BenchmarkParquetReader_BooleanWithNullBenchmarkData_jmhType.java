@@ -1,0 +1,4 @@
+package com.facebook.presto.parquet.generated;
+public class BenchmarkParquetReader_BooleanWithNullBenchmarkData_jmhType extends BenchmarkParquetReader_BooleanWithNullBenchmarkData_jmhType_B3 {
+}
+

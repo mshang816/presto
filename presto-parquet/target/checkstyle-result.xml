@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.16">
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/org/apache/parquet/crypto/HiddenColumnChunkMetaData.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/org/apache/parquet/crypto/HiddenColumnException.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/org/apache/parquet/io/ColumnIOConverter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/PageReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ColumnChunk.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/BooleanColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ParquetColumnIndexStore.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ParquetColumnChunk.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ColumnChunkDescriptor.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/TimestampColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/BinaryColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ParquetReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ShortDecimalColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ListColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/DoubleColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/AbstractColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/FloatColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/LevelRLEReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/LongColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/IntColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/LongTimestampMicrosColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/LevelValuesReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/LevelNullReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/LevelReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/LongDecimalColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/ColumnIndexFilterUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/reader/StructColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetCompressionUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetDataSource.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetErrorCode.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/Page.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetTimestampUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/predicate/TupleDomainParquetPredicate.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/predicate/DictionaryDescriptor.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/predicate/Predicate.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/predicate/PredicateUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/DictionaryPage.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetTypeUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/cache/CachingParquetMetadataSource.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/cache/ParquetFileMetadata.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/cache/ParquetCacheConfig.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/cache/MetadataReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/cache/ParquetMetadataSource.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ColumnReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/DataPageV2.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/GroupField.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ValuesType.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetResultVerifierUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetCorruptionException.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/FileParquetDataSource.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/DataPage.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/rule/ParquetDereferencePushDown.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/Int32NestedBatchReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/Int32FlatBatchReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/DefinitionLevelValuesDecoderContext.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/RepetitionLevelDecodingContext.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/BinaryNestedBatchReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/BytesUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/dictionary/BinaryBatchDictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/dictionary/TimestampDictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/dictionary/Dictionaries.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/delta/Int64DeltaBinaryPackedValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/delta/Int64TimestampMicrosDeltaBinaryPackedValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/delta/Int32DeltaBinaryPackedValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/delta/BinaryDeltaValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/DefinitionLevelDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/plain/TimestampPlainValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/plain/Int32PlainValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/plain/BooleanPlainValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/plain/Int64TimestampMicrosPlainValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/plain/BinaryPlainValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/plain/Int64PlainValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/ValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/rle/BooleanRLEValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/rle/TimestampRLEDictionaryValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/rle/BaseRLEBitPackedDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/rle/Int64TimestampMicrosRLEDictionaryValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/rle/Int32RLEDictionaryValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/rle/Int64RLEDictionaryValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/rle/BinaryRLEDictionaryValuesDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/FlatDefinitionLevelDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/RepetitionLevelDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/decoders/Decoders.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/AbstractNestedBatchReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/BinaryFlatBatchReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/ValuesDecoderContext.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/batchreader/DefinitionLevelDecodingContext.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ColumnWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ColumnChunk.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/CharValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/RealValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/BooleanValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/DateValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/IntegerValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/DecimalValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/BigintValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/DoubleValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/valuewriter/PrimitiveValueWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetTypeVisitor.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetTypeConverter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/MessageTypeConverter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetDataOutput.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetSchemaConverter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetWriterOptions.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ArrayColumnWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/MapColumnWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/PrimitiveColumnWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/StructColumnWriter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetWriters.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/ParquetCompressor.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/levels/RepetitionLevelIterable.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/levels/DefinitionLevelIterables.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/levels/DefinitionLevelIterable.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/writer/levels/RepetitionLevelIterables.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/dictionary/FloatDictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/dictionary/LongDictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/dictionary/BinaryDictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/dictionary/DictionaryReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/dictionary/Dictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/dictionary/IntegerDictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/dictionary/DoubleDictionary.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetValidationUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ColumnReaderFactory.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/DataPageV1.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetDataSourceId.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/Field.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/AbstractParquetDataSource.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/RichColumnDescriptor.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/PrimitiveField.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/main/java/com/facebook/presto/parquet/ParquetEncoding.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/MockParquetDataSource.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/TestEncryption.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/EncryptionTestFileBuilder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/TestColumnIndexBuilder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/EncryptionTestFile.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/MockInputStreamTail.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/EncryptDecryptUtil.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/TestHiddenColumnChunkMetaData.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/reader/TestColumnIndexFilter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/predicate/TestPredicateUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/predicate/BenchmarkTupleDomainParquetPredicate.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/ParquetTestUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/BenchmarkParquetReader.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/TestParquetCompressionUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/batchreader/decoders/TestParquetUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/batchreader/decoders/TestValuesDecoders.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/batchreader/decoders/TestFlatDefinitionLevelDecoder.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/writer/TestParquetSchemaConverter.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/TestParquetTimestampUtils.java">
+</file>
+<file name="/Users/mikesh/presto/presto-parquet/src/test/java/com/facebook/presto/parquet/TestTupleDomainParquetPredicate.java">
+</file>
+</checkstyle>

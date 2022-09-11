@@ -1,0 +1,4 @@
+package com.facebook.presto.parquet.predicate.generated;
+public class BenchmarkTupleDomainParquetPredicate_Data_jmhType extends BenchmarkTupleDomainParquetPredicate_Data_jmhType_B3 {
+}
+
